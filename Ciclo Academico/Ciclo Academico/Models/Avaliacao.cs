@@ -25,7 +25,7 @@ namespace Ciclo_Academico.Models
                 var rank = new RankAkunoQuery();
                 rank.Nome = avaliacao.Aluno.Nome;
                 rank.Media = avaliacao.Media();
-                rank.Turma = avaliacao.Turma.Descrição;
+                rank.Turma = avaliacao.Turma.Descricao;
 
                 listaRank.Add(rank);
             }

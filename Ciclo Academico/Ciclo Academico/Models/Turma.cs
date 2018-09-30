@@ -9,7 +9,7 @@ namespace Ciclo_Academico.Models
             Aluno = new List<Aluno>();
         }
 
-        public string Descrição { get; set; }
+        public string Descricao { get; set; }
         public ICollection<Aluno> Aluno { get; set; }
     }
 
